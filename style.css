@@ -4,17 +4,47 @@ body {
 }
 
 canvas {
-  border: 1px dotted rgb(0, 192, 42);
+  border: 1px dotted rgb(60, 199, 141);
+  box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.096),
+    1px 4px 15px rgba(0, 0, 0, 0.158);
 }
-h1 {
-  font-family: "Roboto", sans-serif;
+
+h1 a {
+  margin-top: -15px;
+  margin-bottom: -7px;
   text-align: center;
-  color: white;
-  margin-top: -5px;
+  color: #fff;
+  margin-left: 37%;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-family: "Baloo Da 2", cursive;
 }
+a.effect-underline:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
 .chart-container {
   position: relative;
   margin: auto;
-  height: 81vh;
+  height: 75vh;
   width: 90vw;
 }
