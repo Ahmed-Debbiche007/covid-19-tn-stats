@@ -1,0 +1,20 @@
+body {
+  background: #1d1f20;
+  padding: 16px;
+}
+
+canvas {
+  border: 1px dotted rgb(0, 192, 42);
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: -5px;
+}
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 80vh;
+  width: 80vw;
+}
