@@ -29,10 +29,10 @@ fetch(
         {
           label: "Current Count",
           backgroundColor: "rgba(255, 255, 255,0.4)",
-          borderColor: "rgba(255, 255, 255,0.4)",
+          borderColor: "rgba(255, 255, 255,0)",
           borderWidth: 3,
           hoverBackgroundColor: "rgba(255, 255, 255,0.2)",
-          hoverBorderColor: "rgba(255, 255, 255)",
+          hoverBorderColor: "rgba(255, 255, 255,0)",
           data: [a, b, f, c, d]
         }
       ]

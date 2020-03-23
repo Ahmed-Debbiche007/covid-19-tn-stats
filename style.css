@@ -5,8 +5,7 @@ body {
 
 canvas {
   border: 1px dotted rgb(60, 199, 141);
-  box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.096),
-    1px 4px 15px rgba(0, 0, 0, 0.158);
+  box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1), 1px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
 h1 a {
